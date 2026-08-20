@@ -9,7 +9,7 @@ import (
 
 type CacheControlConfig struct {
 	Public          bool          `json:"public"`
-	MaxAge          time.Duration `json:"max_age,format:units"`
+	MaxAge          time.Duration `json:"max_age"`
 	NoCache         bool          `json:"no_cache"`
 	NoStore         bool          `json:"no_store"`
 	Immutable       bool          `json:"immutable"`
